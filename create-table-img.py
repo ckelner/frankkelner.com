@@ -15,7 +15,7 @@ count = 0
 for file in files:
     if count == 0:
         table += "  <tr>\n"
-    table += "    <td>https://pop-pop.s3.us-east-1.amazonaws.com/{0}</td>\n".format(
+    table += '    <td><img src="https://pop-pop.s3.us-east-1.amazonaws.com/{0}"/></td>\n'.format(
         file
     )
     if count == 2:
