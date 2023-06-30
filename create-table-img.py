@@ -12,7 +12,7 @@ path = "/Users/chris.kelner/Downloads/pop-pop"
 files = os.listdir(path)
 
 for file in files:
-    html += '<img src="https://pop-pop.s3.us-east-1.amazonaws.com/{0}"/><br/>\n'.format(
+    html += '<img class="images" src="https://pop-pop.s3.us-east-1.amazonaws.com/{0}"/><br/>\n'.format(
         file
     )
 
