@@ -6,7 +6,7 @@ fileout = open("html-table.html", "w")
 
 html = ""
 # specify the img directory path
-path = "/Users/chris.kelner/Downloads/pop-pop"
+path = "/Users/chris.kelner/Downloads/pop-pop-2"
 
 # list files in img directory
 files = os.listdir(path)
