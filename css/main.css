@@ -1,11 +1,11 @@
 .images {
     width: 95vw;
-    min-height: 450px;
-    max-width: 1200px;
     object-fit: contain;
+    max-inline-size: 100%;
 }
 
-@media (min-width: 1300px) {
+/*
+@media (max-width: 1300px) {
     .images {
         max-width: 1300px;
     }
@@ -25,6 +25,7 @@
 
 @media (max-width: 600px) {
     .images {
-        max-width: 500px;
+        max-width: 600px;
     }
 }
+*/
