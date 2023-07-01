@@ -2,7 +2,7 @@
     width: 95vw;
     min-height: 450px;
     max-width: 1200px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 @media (min-width: 1300px) {
